@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <style>
+       *{
+           margin: 0px;
+           padding: 0px;
+       }
+       html,body{
+           height: 100%;
+           background: yellow;
+       }
+       .login{
+           width: 100%;
+           height: 100%;
+           position: fixed;
+           top: 0px;
+           left: 0px;
+           background: rgba(7,17,27,0.1);
+           z-index: 100;
+       }
+       .login-wrapper{
+           width: 560px;
+           height: 410px;
+           background-color: white;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translateX(-50%) translateY(-50%);
+           box-shadow: 0 0 10px rgba(0,0,0,0.3);
+       }
+       .login-header{
+           width: 560px;
+           height: 55px;
+           background: pink;
+           border-bottom: 1px solid #bfbfbf;
+       }
+       .login-header a{
+           font-size: 16px;
+           font-weight: 400;
+           text-decoration: none;
+       }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="login-wrapper">
+            <div class="login-header">
+                <span><a href="">QQ登录</a></span>
+                <span><a href="">微信登录</a></span>
+            </div>
+            <div class="login-content">
+                <span>账号密码登录</span>
+                <span>推荐使用快速安全登录,防止盗号</span>
+                <input type="text" placeholder="支持QQ号/邮箱/手机号登录">
+                <input type="password">
+                <button>登录</button>
+            </div>
+            <div class="login-footer">
+                <div class="footer-left"></div>
+                <div class="footer-right"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

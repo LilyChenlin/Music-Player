@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/player.js"></script>
+	<script src="js/progress.js"></script>
+	<script src="js/lyric.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="header">
+		<h1 class="logo"><a href="#"></a></h1>
+		<ul class="register">
+			<li id="login">登录</li>
+			<li>设置</li>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="content-in">
+			<div class="content-left">
+				<div class="content-toolbar">
+					<span><i></i>收藏</span>
+					<span><i></i>添加到</span>
+					<span><i></i>下载</span>
+					<span><i></i>删除</span>
+					<span><i></i>清空列表</span>
+				</div>
+				<div class="content-list" data-mcs-theme="minimal-dark">
+					<ul>
+						<li class="list-title">
+							<div class="list_check"><i></i></div>
+							<div class="list_number"></div>
+							<div class="list_song">歌曲</div>
+							<div class="list_singer">歌手</div>
+							<div class="list_time">时长</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content-right">
+				<div class="song_info">
+					<a href="javascript:;" class="song_info_pic">
+						<img src="images/lnj.jpg" alt="">
+					</a>
+					<div class="song_info_name">歌曲名称：<a href="javascript:;">从零玩转编程开发</a></div>
+					<div class="song_info_singer">歌手名称：<a href="javascript:;">李南江</a></div>
+					<div class="song_info_ablum">专辑：<a href="javascript:;">从零玩转系列</a></div>
+				</div>
+				<div class="song_lyric_container">
+					<ul class="song_lyric">
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-in">
+			<a href="javascript:;" class="music_prev"></a>
+			<a href="javascript:;" class="music_play"></a>
+			<a href="javascript:;" class="music_next"></a>
+			<div class="music_progress_info">
+				<div class="music_progress_top">
+					<span class="music_top_name">从零玩转/李南江</span>
+					<span class="music_top_time">00:00/05:23</span>
+				</div>
+				<div class="music_progress_bar">
+					<div class="music_progress_line"></div>
+					<div class="music_progress_dot"></div>
+				</div>
+			</div>
+			<a href="javascript:;" class="music_mode"></a>
+			<a href="javascript:;" class="music_fav"></a>
+			<a href="javascript:;" class="music_down"></a>
+			<a href="javascript:;" class="music_comment"></a>
+			<a href="javascript:;" class="music_only"></a>
+			<div class="music_voice_info">
+				<a class="music_voice_icon"></a>
+				<div class="music_voice_bar">
+					<div class="music_voice_line"></div>
+					<div class="music_voice_dot"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mask-bg"></div>
+	<div class="mask"></div>
+	<audio src=""></audio>
+
+    <!--登录框-->
+    <div class="login">
+        <div class="login-header">
+            <span>QQ登录</span>
+            <span>微信登录</span>
+        </div>
+        <div class="login-content">
+            <span>账号密码登录</span>
+            <span>推荐使用快速安全登录,防止盗号</span>
+            <input type="text" placeholder="支持QQ号/邮箱/手机号登录">
+            <input type="password">
+            <button>登录</button>
+        </div>
+        <div class="login-footer">
+            <div class="footer-left"></div>
+            <div class="footer-right"></div>
+        </div>
+    </div>
+    <div class="bg-mask"></div>
+
+</body>
+</html>
